@@ -1,1 +1,1 @@
-web: bundle exec code-daddies_list-copy server -p $PORT
+web: gunicorn codedaddies_list.wsgi
